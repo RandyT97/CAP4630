@@ -22,7 +22,6 @@ for i in range (len(train_images)):
   image_counts[index] += 1
   
 for i in range (len(avg_images)):
-  print (image_counts[i])
   avg_images[i] /= image_counts[i]
   
   
